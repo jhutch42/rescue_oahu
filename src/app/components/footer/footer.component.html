@@ -1,0 +1,19 @@
+<!-- Contains the two columns -->
+<div class="fifty-fifty-wrapper">
+  <div>
+      <h2>Animal Rescues of Oahu</h2>
+    <ul>
+      <!-- Load all data from teh rescues.  Name and url for the link -->
+      <li *ngFor="let rescue of rescues">
+        <a href={{rescue.url}}>{{rescue.name}}</a>
+      </li>
+    </ul>
+  </div>
+  <div>
+      <h2>Rescue Oahu Info</h2>
+      <a routerLink='search' routerLinkActive="active">Search Animals For Adoption</a>
+      <p>Copyright 2019</p>
+      <p>James Hutchison</p>
+      <p>jhutch42@hawaii.edu</p>
+  </div>
+</div>

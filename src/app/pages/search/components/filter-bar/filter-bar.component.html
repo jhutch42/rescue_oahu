@@ -1,0 +1,14 @@
+<!-- All drop down data is loaded dynamically from the .ts file-->
+<div class="search-container">
+  <div class="search-tab" *ngFor="let e of searchObjects | keyvalue">
+    <span class="label">{{ searchObjects[e.key].id }}: </span>
+      <!-- When drop downs are changed, the search results are updated -->
+      <select class="drop-down" #select (change)="updateSearch(searchObjects[e.key].id, select.value)">
+        <!-- Initial drop down value is set to all -->
+        <option value="all" class="dd-option" >All</option>
+        <option class="dd-option" *ngFor="let item of searchObjects[e.key].data" value={{item}}>
+          {{ item }}
+        </option>
+      </select>
+  </div>
+</div>

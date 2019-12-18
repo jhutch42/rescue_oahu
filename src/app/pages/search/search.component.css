@@ -1,0 +1,26 @@
+/* This container holds all search cards and fills the entire screen */
+.search-container {
+    width: 100%;
+    position: relative;
+}
+
+/* 4 Cards per line */
+.search-card {
+    width: 20%;
+    padding: 2%;
+    margin: 0.5%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    background-color: #efefef;
+    height: 960px;
+}
+
+/* Collapse the component into cards on the small screens */
+@media only screen and (max-width: 600px) {
+    .search-card {
+        width: calc(100% - 4%);
+        height: auto;
+    }
+}
+

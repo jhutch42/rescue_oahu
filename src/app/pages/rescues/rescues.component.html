@@ -1,0 +1,17 @@
+<!-- Nav bar and logo -->
+<app-header class="header"></app-header>
+<!-- Full width image -->
+<div class="head-image">
+  <img src={{coverImageUrl}}>
+</div>
+<!-- Page title overlays the image. -->
+<div class="head-title-overlay">
+  <h2>{{title}}</h2>
+  <p>{{subtitle}}</p>
+</div>
+<!-- Contains the dynamically loaded rescue cards -->
+<div class="rescue-card-container">
+  <app-rescue-card *ngFor="let rescue of rescues" class="rescue-card" name={{rescue.name}} url={{rescue.url}}
+    phone={{rescue.phone}} image={{rescue.img}}></app-rescue-card>
+</div>
+<app-footer></app-footer>

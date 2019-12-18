@@ -1,0 +1,17 @@
+:host {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    width: 80%;
+    height: 10%;
+    background-color: black;
+    position: relative;
+    display: block;
+    margin-bottom: calc(70% / 5);
+    left: 10%;
+    top: calc(70% / 4);
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+/* Full screen image fills the entire card */
+.image {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+}
+
+/* Custom button */
+.button {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 45%;
+    height: 10%;
+    transition: background-color 0.3s linear;
+    z-index: 10;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-top: 18px;
+}
+
+.button > p > a {
+    height: 100%;
+    vertical-align: middle;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* When user hovers over the button darken the background color */
+.button:hover {
+    background-color: rgba(0,0,0,0.7);
+}

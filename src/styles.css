@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.head-image {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.head-image img {
+  width: 100%;
+}
+
+.head-title-overlay {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 20%;
+  color: white;
+}
+
+.head-title-overlay>h2 {
+  font-size: 52px;
+}
+
+.head-title-overlay>p {
+  font-size: 18px;
+}

@@ -1,0 +1,47 @@
+/* Container holds all of the filter drop downs */
+.search-container {
+    width: calc(100% - 24px);
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 0 20px 0;
+    margin: 0 10px 0 10px;
+}
+
+/* Each filter drop down is displayed inline in the filter bar */
+.search-tab {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+/* Set styles for the drop downs */
+.drop-down {
+    font-size: 18px;
+    padding: 4px;
+}
+
+/* Labels for each drop down */
+.label {
+    font-size: 18px;
+    margin: auto;
+}
+
+/* stack the filters in small screens */
+@media only screen and (max-width: 600px) {
+    .search-tab { 
+        text-align: left;
+        display: block;
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .label {
+        width: 30%;
+        position: relative;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .drop-down {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+}

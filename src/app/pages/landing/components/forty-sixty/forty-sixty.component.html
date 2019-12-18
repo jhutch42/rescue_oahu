@@ -1,0 +1,13 @@
+<!-- All data is loded from the Animal Service. -->
+<div class="forty"><img src="{{animal.image}}"></div>
+<div class="sixty">
+    <div class="animal-card">
+    <p>Name: {{animal.name}}</p>
+    <p>Size: {{animal.size}}</p>
+    <p>Age: {{animal.age}}</p>
+    <p>Location: {{animal.location}}</p>
+    <p>Description: {{animal.description}}</p>
+    <p>Date Posted: {{animal.date_added}}</p></div>
+    <!-- This button loads a random animal -->
+    <button class="button" (click)="randomAnimal()">Load Another Animal</button>
+</div>

@@ -1,0 +1,22 @@
+<!-- Nav Bar and logo -->
+<app-header class="header"></app-header>
+<!-- Full screen Image -->
+<div class="head-image">
+    <img src={{coverImageUrl}}>
+</div>
+<!-- Text overlaying the image -->
+<div class="head-title-overlay">
+    <h2>{{title}}</h2>
+    <p>{{subtitle}}</p>
+</div>
+<!-- Title for the forty sixty box.  Currently featured pet.-->
+<div class="title">
+  <h1>{{sixtyFortyTitle}}</h1>
+</div>
+<app-forty-sixty name="landing-featured" id="featured" class="landing-featured"></app-forty-sixty>
+<div class="title">
+  <h1>{{fourBoxTitle}}</h1>
+</div>
+<!-- Four side by side cards -->
+<app-four-box type="intro"></app-four-box>
+<app-footer></app-footer>

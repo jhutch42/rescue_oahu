@@ -1,0 +1,11 @@
+<!-- Hamburger Code -->
+<div class="header-wrapper">
+  <app-hamburger class="hamburger" (click)="toggle()"></app-hamburger>
+  <div class="logo">
+    <img src={{logoSrc}}>
+  </div>
+  <!-- nav bar is loaded dynamically from the .ts file -->
+  <ul class="nav" #navBar>
+    <li *ngFor="let e of navData"><a (click)="searchRoute(e.text)" routerLink={{e.link}} routerLinkActive="active">{{e.text}}</a></li>
+  </ul>
+</div>

@@ -1,0 +1,68 @@
+/* Just like on the landing page, text overlays the full screen image */
+.head-title-overlay {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Container that hold the rescue careds */
+.rescue-card-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+
+}
+
+/* Each rescue card is loaded dynamically.  3 per line */
+.rescue-card {
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  margin: 2%;
+  padding: 2%;
+  height: 500px;
+  vertical-align: top;
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+
+  /* Make rescue careds full screen */
+  .rescue-card {
+    width: 96%;
+    position: relative;
+    display: block;
+    padding: 10px 0 0 0;
+  }
+
+  /* Realign the header text */
+  .head-title-overlay {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 90%;
+    color: white;
+    text-align: center;
+  }
+
+  /* Adjust text sizes */
+  .head-title-overlay>h2 {
+    font-size: 40px;
+  }
+
+  .head-title-overlay>p {
+    font-size: 18px;
+  }
+
+  .title>h1 {
+    font-size: 18px;
+  }
+
+  /* Realign the image */
+  .head-image>img {
+    width: 150%;
+    left: -20%;
+    position: relative;
+  }
+
+}

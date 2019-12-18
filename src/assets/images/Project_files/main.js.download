@@ -1,0 +1,1381 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
+/*!**************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<router-outlet></router-outlet>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/footer/footer.component.html":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/footer/footer.component.html ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>footer works!</p>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/header/components/hamburger/hamburger.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/header/components/hamburger/hamburger.component.html ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<span></span>\n<span></span>\n<span></span>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/components/header/header.component.html":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/components/header/header.component.html ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"header-wrapper\">\n  <app-hamburger class=\"hamburger\" (click)=\"toggle()\"></app-hamburger>\n  <div class=\"logo\">\n    <img src=\"../../../assets/images/415-logo.JPG\">\n  </div>\n  <ul class=\"nav\" #navBar>\n    <li *ngFor=\"let e of navData\"><a routerLink={{e.link}} routerLinkActive=\"active\">{{e.text}}</a></li>\n  </ul>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/about/about.component.html":
+/*!****************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/about/about.component.html ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<app-header></app-header>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/animal-card/animal-card.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/landing/components/animal-card/animal-card.component.html ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>animal-card works!</p>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/forty-sixty/forty-sixty.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/landing/components/forty-sixty/forty-sixty.component.html ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"forty\"><img src=\"{{animal.image}}\"></div>\n<div class=\"sixty\">\n    <div class=\"animal-card\">\n    <p>Name: {{animal.name}}</p>\n    <p>Size: {{animal.size}}</p>\n    <p>Age: {{animal.age}}</p>\n    <p>Location: {{animal.location}}</p>\n    <p>Description: {{animal.description}}</p>\n    <p>Date Posted: {{animal.date_added}}</p></div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/four-box/four-box.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/landing/components/four-box/four-box.component.html ***!
+  \*****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"box\" *ngFor=\"let element of data\">\n    <app-intro-card title={{element.title}} image={{element.image}} link={{element.link}}></app-intro-card>\n    <div class=\"overlay\"></div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/intro-card/intro-card.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/landing/components/intro-card/intro-card.component.html ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"image\">\n   <img src={{image}}>\n</div>\n<div class=\"button\">\n    \n      <p><a routerLink={{link}} routerLinkActive=\"active\">{{title}}</a></p>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/landing/landing.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/landing/landing.component.html ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<app-header class=\"header\"></app-header>\n<div class=\"head-image\">\n    <img src={{coverImageUrl}}>\n</div>\n<div class=\"head-title-overlay\">\n    <h2>{{title}}</h2>\n    <p>{{subtitle}}</p>\n</div>\n<div class=\"title\">\n  <h1>{{sixtyFortyTitle}}</h1>\n</div>\n<app-forty-sixty name=\"landing-featured\" id=\"featured\" class=\"landing-featured\"></app-forty-sixty>\n<app-four-box type=\"intro\"></app-four-box>\n<app-footer></app-footer>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.html":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.html ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>rescue-card works!</p>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/rescues/rescues.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/rescues/rescues.component.html ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<app-header class=\"header\"></app-header>\r\n<div class=\"head-image\">\r\n    <img src={{coverImageUrl}}>\r\n</div>\r\n<div class=\"head-title-overlay\">\r\n    <h2>{{title}}</h2>\r\n    <p>{{subtitle}}</p>\r\n</div>\r\n<div *ngFor=\"let rescue of rescues\">\r\n    <img src={{rescue.img}}>\r\n</div>\r\n<app-footer></app-footer>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/search/search.component.html":
+/*!******************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/search/search.component.html ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<app-header></app-header>\n"
+
+/***/ }),
+
+/***/ "./node_modules/webpack/hot sync ^\\.\\/log$":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./log": "./node_modules/webpack/hot/log.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _pages_landing_landing_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/landing/landing.component */ "./src/app/pages/landing/landing.component.ts");
+/* harmony import */ var _pages_rescues_rescues_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/rescues/rescues.component */ "./src/app/pages/rescues/rescues.component.ts");
+/* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
+/* harmony import */ var _pages_search_search_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/search/search.component */ "./src/app/pages/search/search.component.ts");
+
+
+
+
+
+
+
+const routes = [
+    { path: '', component: _pages_landing_landing_component__WEBPACK_IMPORTED_MODULE_3__["LandingComponent"] },
+    { path: 'rescues', component: _pages_rescues_rescues_component__WEBPACK_IMPORTED_MODULE_4__["RescuesComponent"] },
+    { path: 'about', component: _pages_about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"] },
+    { path: 'search', component: _pages_search_search_component__WEBPACK_IMPORTED_MODULE_6__["SearchComponent"] }
+];
+let AppRoutingModule = class AppRoutingModule {
+};
+AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })
+], AppRoutingModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AppComponent = class AppComponent {
+    constructor() {
+        this.title = 'project';
+    }
+};
+AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root',
+        template: __webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/index.js!./src/app/app.component.html"),
+        styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+    })
+], AppComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _pages_landing_landing_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/landing/landing.component */ "./src/app/pages/landing/landing.component.ts");
+/* harmony import */ var _pages_landing_components_four_box_four_box_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/landing/components/four-box/four-box.component */ "./src/app/pages/landing/components/four-box/four-box.component.ts");
+/* harmony import */ var _pages_landing_components_forty_sixty_forty_sixty_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/landing//components/forty-sixty/forty-sixty.component */ "./src/app/pages/landing/components/forty-sixty/forty-sixty.component.ts");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
+/* harmony import */ var _components_header_components_hamburger_hamburger_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/header/components/hamburger/hamburger.component */ "./src/app/components/header/components/hamburger/hamburger.component.ts");
+/* harmony import */ var _pages_landing_components_animal_card_animal_card_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/landing/components/animal-card/animal-card.component */ "./src/app/pages/landing/components/animal-card/animal-card.component.ts");
+/* harmony import */ var _pages_landing_components_intro_card_intro_card_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/landing/components/intro-card/intro-card.component */ "./src/app/pages/landing/components/intro-card/intro-card.component.ts");
+/* harmony import */ var _pages_rescues_rescues_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/rescues/rescues.component */ "./src/app/pages/rescues/rescues.component.ts");
+/* harmony import */ var _pages_search_search_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/search/search.component */ "./src/app/pages/search/search.component.ts");
+/* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
+/* harmony import */ var _pages_rescues_comoonents_rescue_card_rescue_card_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/rescues/comoonents/rescue-card/rescue-card.component */ "./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.ts");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let AppModule = class AppModule {
+};
+AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+        declarations: [
+            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+            _pages_landing_landing_component__WEBPACK_IMPORTED_MODULE_5__["LandingComponent"],
+            _pages_landing_components_four_box_four_box_component__WEBPACK_IMPORTED_MODULE_6__["FourBoxComponent"],
+            _pages_landing_components_forty_sixty_forty_sixty_component__WEBPACK_IMPORTED_MODULE_7__["FortySixtyComponent"],
+            _components_header_header_component__WEBPACK_IMPORTED_MODULE_8__["HeaderComponent"],
+            _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
+            _components_header_components_hamburger_hamburger_component__WEBPACK_IMPORTED_MODULE_10__["HamburgerComponent"],
+            _pages_landing_components_animal_card_animal_card_component__WEBPACK_IMPORTED_MODULE_11__["AnimalCardComponent"],
+            _pages_landing_components_intro_card_intro_card_component__WEBPACK_IMPORTED_MODULE_12__["IntroCardComponent"],
+            _pages_rescues_rescues_component__WEBPACK_IMPORTED_MODULE_13__["RescuesComponent"],
+            _pages_search_search_component__WEBPACK_IMPORTED_MODULE_14__["SearchComponent"],
+            _pages_about_about_component__WEBPACK_IMPORTED_MODULE_15__["AboutComponent"],
+            _pages_rescues_comoonents_rescue_card_rescue_card_component__WEBPACK_IMPORTED_MODULE_16__["RescueCardComponent"]
+        ],
+        imports: [
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]
+        ],
+        providers: [],
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+    })
+], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/footer/footer.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/footer/footer.component.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/components/footer/footer.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/footer/footer.component.ts ***!
+  \*******************************************************/
+/*! exports provided: FooterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let FooterComponent = class FooterComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-footer',
+        template: __webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/footer/footer.component.html"),
+        styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/components/footer/footer.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], FooterComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/header/components/hamburger/hamburger.component.css":
+/*!********************************************************************************!*\
+  !*** ./src/app/components/header/components/hamburger/hamburger.component.css ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ":host {\r\n    cursor: pointer;\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n\r\nspan {\r\n    width: 80%;\r\n    height: 10%;\r\n    background-color: black;\r\n    position: relative;\r\n    display: block;\r\n    margin-bottom: calc(70% / 5);\r\n    left: 10%;\r\n    top: calc(70% / 4);\r\n    border-radius: 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvY29tcG9uZW50cy9oYW1idXJnZXIvaGFtYnVyZ2VyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2YsWUFBWTtJQUNaLFdBQVc7QUFDZjs7QUFFQTtJQUNJLFVBQVU7SUFDVixXQUFXO0lBQ1gsdUJBQXVCO0lBQ3ZCLGtCQUFrQjtJQUNsQixjQUFjO0lBQ2QsNEJBQTRCO0lBQzVCLFNBQVM7SUFDVCxrQkFBa0I7SUFDbEIsbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvY29tcG9uZW50cy9oYW1idXJnZXIvaGFtYnVyZ2VyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuc3BhbiB7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgaGVpZ2h0OiAxMCU7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogY2FsYyg3MCUgLyA1KTtcclxuICAgIGxlZnQ6IDEwJTtcclxuICAgIHRvcDogY2FsYyg3MCUgLyA0KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/components/header/components/hamburger/hamburger.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/components/header/components/hamburger/hamburger.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: HamburgerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HamburgerComponent", function() { return HamburgerComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let HamburgerComponent = class HamburgerComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+HamburgerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-hamburger',
+        template: __webpack_require__(/*! raw-loader!./hamburger.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/header/components/hamburger/hamburger.component.html"),
+        styles: [__webpack_require__(/*! ./hamburger.component.css */ "./src/app/components/header/components/hamburger/hamburger.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], HamburgerComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/header/header.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/header/header.component.css ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ":host {\r\n  background-color: white;\r\n  z-index: 10;\r\n}\r\n\r\na {\r\n  color: black;\r\n  text-decoration: none;\r\n}\r\n\r\na:hover {\r\n  text-decoration: underline;\r\n}\r\n\r\n.header-wrapper {\r\n  width: 100%;\r\n  height: 100px;\r\n}\r\n\r\n.logo {\r\n  width: 20%;\r\n  height: 100%;\r\n  display: inline-block;\r\n}\r\n\r\n.logo img {\r\n  width: auto;\r\n  height: 100%;\r\n  z-index: 10;\r\n}\r\n\r\n.hamburger {\r\n  display: none;\r\n  position: relative;\r\n  width: 10%;\r\n  height: 100%;\r\n  vertical-align: top;\r\n  z-index: 10;\r\n}\r\n\r\n.nav {\r\n  display: inline-block;\r\n  list-style-type: none;\r\n  width: 75%;\r\n  height: 100%;\r\n  vertical-align: top;\r\n  padding-top: 15px;\r\n\r\n}\r\n\r\n.nav>li {\r\n  display: inline;\r\n  padding: 0 30px 0 30px;\r\n  font-size: 18px;\r\n  font-weight: 800;\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n  .hamburger {\r\n    display: inline-block;\r\n    width: 25%;\r\n  }\r\n\r\n  .logo {\r\n    width: 15%;\r\n    z-index: 10;\r\n  }\r\n\r\n\r\n  .nav {\r\n    z-index: 1;\r\n    display: none;\r\n    text-align: left;\r\n    background-color: white;\r\n    position: relative;\r\n    left: 0;\r\n    width: calc(100% - 8px);\r\n    padding: 100px 8px 0 0;\r\n    top: -50px;\r\n  }\r\n\r\n  .nav>li {\r\n    display: block;\r\n    position: relative;\r\n    padding: 5px 10px 5px 0;\r\n    background-color: white;\r\n  }\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSx1QkFBdUI7RUFDdkIsV0FBVztBQUNiOztBQUVBO0VBQ0UsWUFBWTtFQUNaLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtFQUNaLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztBQUNiOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGtCQUFrQjtFQUNsQixVQUFVO0VBQ1YsWUFBWTtFQUNaLG1CQUFtQjtFQUNuQixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIscUJBQXFCO0VBQ3JCLFVBQVU7RUFDVixZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLGlCQUFpQjs7QUFFbkI7O0FBRUE7RUFDRSxlQUFlO0VBQ2Ysc0JBQXNCO0VBQ3RCLGVBQWU7RUFDZixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRTtJQUNFLHFCQUFxQjtJQUNyQixVQUFVO0VBQ1o7O0VBRUE7SUFDRSxVQUFVO0lBQ1YsV0FBVztFQUNiOzs7RUFHQTtJQUNFLFVBQVU7SUFDVixhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtJQUN2QixrQkFBa0I7SUFDbEIsT0FBTztJQUNQLHVCQUF1QjtJQUN2QixzQkFBc0I7SUFDdEIsVUFBVTtFQUNaOztFQUVBO0lBQ0UsY0FBYztJQUNkLGtCQUFrQjtJQUNsQix1QkFBdUI7SUFDdkIsdUJBQXVCO0VBQ3pCO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICB6LWluZGV4OiAxMDtcclxufVxyXG5cclxuYSB7XHJcbiAgY29sb3I6IGJsYWNrO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxufVxyXG5cclxuYTpob3ZlciB7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5oZWFkZXItd3JhcHBlciB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIHdpZHRoOiAyMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxufVxyXG5cclxuLmxvZ28gaW1nIHtcclxuICB3aWR0aDogYXV0bztcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgei1pbmRleDogMTA7XHJcbn1cclxuXHJcbi5oYW1idXJnZXIge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIHdpZHRoOiAxMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHZlcnRpY2FsLWFsaWduOiB0b3A7XHJcbiAgei1pbmRleDogMTA7XHJcbn1cclxuXHJcbi5uYXYge1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgd2lkdGg6IDc1JTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgdmVydGljYWwtYWxpZ246IHRvcDtcclxuICBwYWRkaW5nLXRvcDogMTVweDtcclxuXHJcbn1cclxuXHJcbi5uYXY+bGkge1xyXG4gIGRpc3BsYXk6IGlubGluZTtcclxuICBwYWRkaW5nOiAwIDMwcHggMCAzMHB4O1xyXG4gIGZvbnQtc2l6ZTogMThweDtcclxuICBmb250LXdlaWdodDogODAwO1xyXG59XHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgLmhhbWJ1cmdlciB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICB3aWR0aDogMjUlO1xyXG4gIH1cclxuXHJcbiAgLmxvZ28ge1xyXG4gICAgd2lkdGg6IDE1JTtcclxuICAgIHotaW5kZXg6IDEwO1xyXG4gIH1cclxuXHJcblxyXG4gIC5uYXYge1xyXG4gICAgei1pbmRleDogMTtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgd2lkdGg6IGNhbGMoMTAwJSAtIDhweCk7XHJcbiAgICBwYWRkaW5nOiAxMDBweCA4cHggMCAwO1xyXG4gICAgdG9wOiAtNTBweDtcclxuICB9XHJcblxyXG4gIC5uYXY+bGkge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBwYWRkaW5nOiA1cHggMTBweCA1cHggMDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIH1cclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/components/header/header.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/header/header.component.ts ***!
+  \*******************************************************/
+/*! exports provided: HeaderComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/animal-service.service */ "./src/app/services/animal-service.service.ts");
+
+
+
+let HeaderComponent = class HeaderComponent {
+    constructor(animalService) {
+        this.animalService = animalService;
+        this.navData = animalService.getNavData();
+        this.mobileNavOpen = false;
+    }
+    ngAfterViewInit() {
+        this.animalService.mobileNavSubject.subscribe({
+            next: value => {
+                this.navElement.nativeElement.style.display = value ? 'block' : 'none';
+            }
+        });
+    }
+    toggle() {
+        this.animalService.toggleMobileNav();
+    }
+    onResize(event) {
+        this.animalService.updateInnerWidth(window.innerWidth);
+    }
+};
+HeaderComponent.ctorParameters = () => [
+    { type: src_app_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('navBar', { static: false }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
+], HeaderComponent.prototype, "navElement", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('window:resize', ['$event']),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Function),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [Object]),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:returntype", void 0)
+], HeaderComponent.prototype, "onResize", null);
+HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-header',
+        template: __webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/header/header.component.html"),
+        styles: [__webpack_require__(/*! ./header.component.css */ "./src/app/components/header/header.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"]])
+], HeaderComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/about/about.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/pages/about/about.component.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pages/about/about.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/pages/about/about.component.ts ***!
+  \************************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AboutComponent = class AboutComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-about',
+        template: __webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/about/about.component.html"),
+        styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/pages/about/about.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], AboutComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/animal-card/animal-card.component.css":
+/*!********************************************************************************!*\
+  !*** ./src/app/pages/landing/components/animal-card/animal-card.component.css ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2xhbmRpbmcvY29tcG9uZW50cy9hbmltYWwtY2FyZC9hbmltYWwtY2FyZC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/animal-card/animal-card.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/pages/landing/components/animal-card/animal-card.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: AnimalCardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnimalCardComponent", function() { return AnimalCardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AnimalCardComponent = class AnimalCardComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+AnimalCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-animal-card',
+        template: __webpack_require__(/*! raw-loader!./animal-card.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/animal-card/animal-card.component.html"),
+        styles: [__webpack_require__(/*! ./animal-card.component.css */ "./src/app/pages/landing/components/animal-card/animal-card.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], AnimalCardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/forty-sixty/forty-sixty.component.css":
+/*!********************************************************************************!*\
+  !*** ./src/app/pages/landing/components/forty-sixty/forty-sixty.component.css ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".forty {\r\n    width: 40%;\r\n    display: inline-block;\r\n}\r\n\r\n.forty img {\r\n    width: 100%;\r\n}\r\n\r\n.sixty {\r\n    width: calc(40% - 40px);\r\n    display: inline-block;\r\n    vertical-align: top;\r\n    font-size: 22px;\r\n    padding-left: 40px;\r\n    color: black;\r\n    height: 100%;\r\n    overflow: hidden;\r\n}\r\n\r\n.animal-card {\r\n  vertical-align: top;\r\n}\r\n\r\n/* On screens that are 992px or less, set the background color to blue */\r\n\r\n@media screen and (max-width: 992px) {\r\n    .forty {\r\n      width: 100%;\r\n      display: block;\r\n    }\r\n\r\n    .sixty {\r\n      width: 100%;\r\n      display: block;\r\n    }\r\n\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n  .forty {\r\n    width: 100%;\r\n  }\r\n  .sixty {\r\n      width: 100%;\r\n  }\r\n  .animal-card {\r\n    font-size: 16px;\r\n    padding-top: 5px;\r\n  }\r\n\r\n  .animal-card > p {\r\n    margin-top: -5px;\r\n    position: relative;\r\n  }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvbGFuZGluZy9jb21wb25lbnRzL2ZvcnR5LXNpeHR5L2ZvcnR5LXNpeHR5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxVQUFVO0lBQ1YscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksV0FBVztBQUNmOztBQUNBO0lBQ0ksdUJBQXVCO0lBQ3ZCLHFCQUFxQjtJQUNyQixtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLGtCQUFrQjtJQUNsQixZQUFZO0lBQ1osWUFBWTtJQUNaLGdCQUFnQjtBQUNwQjs7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQSx3RUFBd0U7O0FBQ3hFO0lBQ0k7TUFDRSxXQUFXO01BQ1gsY0FBYztJQUNoQjs7SUFFQTtNQUNFLFdBQVc7TUFDWCxjQUFjO0lBQ2hCOztBQUVKOztBQUdBO0VBQ0U7SUFDRSxXQUFXO0VBQ2I7RUFDQTtNQUNJLFdBQVc7RUFDZjtFQUNBO0lBQ0UsZUFBZTtJQUNmLGdCQUFnQjtFQUNsQjs7RUFFQTtJQUNFLGdCQUFnQjtJQUNoQixrQkFBa0I7RUFDcEI7QUFDRiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2xhbmRpbmcvY29tcG9uZW50cy9mb3J0eS1zaXh0eS9mb3J0eS1zaXh0eS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZvcnR5IHtcclxuICAgIHdpZHRoOiA0MCU7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbn1cclxuXHJcbi5mb3J0eSBpbWcge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn1cclxuLnNpeHR5IHtcclxuICAgIHdpZHRoOiBjYWxjKDQwJSAtIDQwcHgpO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgdmVydGljYWwtYWxpZ246IHRvcDtcclxuICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgIHBhZGRpbmctbGVmdDogNDBweDtcclxuICAgIGNvbG9yOiBibGFjaztcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbn1cclxuXHJcbi5hbmltYWwtY2FyZCB7XHJcbiAgdmVydGljYWwtYWxpZ246IHRvcDtcclxufVxyXG5cclxuLyogT24gc2NyZWVucyB0aGF0IGFyZSA5OTJweCBvciBsZXNzLCBzZXQgdGhlIGJhY2tncm91bmQgY29sb3IgdG8gYmx1ZSAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTJweCkge1xyXG4gICAgLmZvcnR5IHtcclxuICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgfVxyXG5cclxuICAgIC5zaXh0eSB7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIH1cclxuXHJcbn1cclxuXHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgLmZvcnR5IHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gIH1cclxuICAuc2l4dHkge1xyXG4gICAgICB3aWR0aDogMTAwJTtcclxuICB9XHJcbiAgLmFuaW1hbC1jYXJkIHtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxuICAgIHBhZGRpbmctdG9wOiA1cHg7XHJcbiAgfVxyXG5cclxuICAuYW5pbWFsLWNhcmQgPiBwIHtcclxuICAgIG1hcmdpbi10b3A6IC01cHg7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgfVxyXG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/forty-sixty/forty-sixty.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/pages/landing/components/forty-sixty/forty-sixty.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: FortySixtyComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FortySixtyComponent", function() { return FortySixtyComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../services/animal-service.service */ "./src/app/services/animal-service.service.ts");
+
+
+
+let FortySixtyComponent = class FortySixtyComponent {
+    constructor(viewContainerRef, animalService) {
+        this.viewContainerRef = viewContainerRef;
+        this.animalService = animalService;
+        this.animal = animalService.getAnimal(1);
+    }
+    ngOnInit() {
+    }
+};
+FortySixtyComponent.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },
+    { type: _services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('name'),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], FortySixtyComponent.prototype, "id", void 0);
+FortySixtyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-forty-sixty',
+        template: __webpack_require__(/*! raw-loader!./forty-sixty.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/forty-sixty/forty-sixty.component.html"),
+        styles: [__webpack_require__(/*! ./forty-sixty.component.css */ "./src/app/pages/landing/components/forty-sixty/forty-sixty.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"]])
+], FortySixtyComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/four-box/four-box.component.css":
+/*!**************************************************************************!*\
+  !*** ./src/app/pages/landing/components/four-box/four-box.component.css ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".box {\r\n    width: 25%;\r\n    display: inline-block;\r\n    margin: auto;\r\n    position: relative;\r\n}\r\n\r\n.box:hover > .overlay {\r\n    opacity: 0;\r\n}\r\n\r\n.overlay {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 100%;\r\n  background-color: black;\r\n  opacity: 0.4;\r\n  top: 0;\r\n  transition: opacity 0.2s linear;\r\n  cursor: pointer;\r\n}\r\n\r\n/* On screens that are 992px or less, set the background color to blue */\r\n\r\n@media screen and (max-width: 992px) {\r\n  .box {\r\n    width: 50%;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 600px) {\r\n  .box {\r\n    width: 100%;\r\n  }\r\n  .overlay {\r\n    display: none;\r\n  }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvbGFuZGluZy9jb21wb25lbnRzL2ZvdXItYm94L2ZvdXItYm94LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxVQUFVO0lBQ1YscUJBQXFCO0lBQ3JCLFlBQVk7SUFDWixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxVQUFVO0FBQ2Q7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7RUFDWix1QkFBdUI7RUFDdkIsWUFBWTtFQUNaLE1BQU07RUFDTiwrQkFBK0I7RUFDL0IsZUFBZTtBQUNqQjs7QUFFQSx3RUFBd0U7O0FBQ3hFO0VBQ0U7SUFDRSxVQUFVO0VBQ1o7QUFDRjs7QUFHQTtFQUNFO0lBQ0UsV0FBVztFQUNiO0VBQ0E7SUFDRSxhQUFhO0VBQ2Y7QUFDRiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2xhbmRpbmcvY29tcG9uZW50cy9mb3VyLWJveC9mb3VyLWJveC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJveCB7XHJcbiAgICB3aWR0aDogMjUlO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcblxyXG4uYm94OmhvdmVyID4gLm92ZXJsYXkge1xyXG4gICAgb3BhY2l0eTogMDtcclxufVxyXG5cclxuLm92ZXJsYXkge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XHJcbiAgb3BhY2l0eTogMC40O1xyXG4gIHRvcDogMDtcclxuICB0cmFuc2l0aW9uOiBvcGFjaXR5IDAuMnMgbGluZWFyO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLyogT24gc2NyZWVucyB0aGF0IGFyZSA5OTJweCBvciBsZXNzLCBzZXQgdGhlIGJhY2tncm91bmQgY29sb3IgdG8gYmx1ZSAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTJweCkge1xyXG4gIC5ib3gge1xyXG4gICAgd2lkdGg6IDUwJTtcclxuICB9XHJcbn1cclxuXHJcblxyXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgLmJveCB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICB9XHJcbiAgLm92ZXJsYXkge1xyXG4gICAgZGlzcGxheTogbm9uZTtcclxuICB9XHJcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/four-box/four-box.component.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/pages/landing/components/four-box/four-box.component.ts ***!
+  \*************************************************************************/
+/*! exports provided: FourBoxComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FourBoxComponent", function() { return FourBoxComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var src_app_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/animal-service.service */ "./src/app/services/animal-service.service.ts");
+
+
+
+let FourBoxComponent = class FourBoxComponent {
+    constructor(animalService) {
+        this.animalService = animalService;
+    }
+    ngOnInit() {
+        this.data = this.animalService.getData(this.type);
+    }
+};
+FourBoxComponent.ctorParameters = () => [
+    { type: src_app_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], FourBoxComponent.prototype, "type", void 0);
+FourBoxComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-four-box',
+        template: __webpack_require__(/*! raw-loader!./four-box.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/four-box/four-box.component.html"),
+        styles: [__webpack_require__(/*! ./four-box.component.css */ "./src/app/pages/landing/components/four-box/four-box.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"]])
+], FourBoxComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/intro-card/intro-card.component.css":
+/*!******************************************************************************!*\
+  !*** ./src/app/pages/landing/components/intro-card/intro-card.component.css ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".image {\r\n    width: 100%;\r\n}\r\n\r\n.image img {\r\n    width: 100%;\r\n}\r\n\r\n.button {\r\n    text-align: center;\r\n    color: white;\r\n    background-color: rgba(0, 0, 0, 0.5);\r\n    position: absolute;\r\n    width: 60%;\r\n    left: 20%;\r\n    top: 45%;\r\n    height: 10%;\r\n    transition: background-color 0.3s linear;\r\n    z-index: 10;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n}\r\n\r\n.button > p > a {\r\n    height: 100%;\r\n    vertical-align: middle;\r\n    font-size: 20px;\r\n    padding-top: 8px;\r\n    text-decoration: none;\r\n    color: white;\r\n}\r\n\r\n.button:hover {\r\n    background-color: rgba(0,0,0,0.7);\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvbGFuZGluZy9jb21wb25lbnRzL2ludHJvLWNhcmQvaW50cm8tY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksV0FBVztBQUNmOztBQUVBO0lBQ0ksV0FBVztBQUNmOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFlBQVk7SUFDWixvQ0FBb0M7SUFDcEMsa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixTQUFTO0lBQ1QsUUFBUTtJQUNSLFdBQVc7SUFDWCx3Q0FBd0M7SUFDeEMsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksWUFBWTtJQUNaLHNCQUFzQjtJQUN0QixlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLHFCQUFxQjtJQUNyQixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksaUNBQWlDO0FBQ3JDIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvbGFuZGluZy9jb21wb25lbnRzL2ludHJvLWNhcmQvaW50cm8tY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmltYWdlIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uaW1hZ2UgaW1nIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uYnV0dG9uIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMC41KTtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHdpZHRoOiA2MCU7XHJcbiAgICBsZWZ0OiAyMCU7XHJcbiAgICB0b3A6IDQ1JTtcclxuICAgIGhlaWdodDogMTAlO1xyXG4gICAgdHJhbnNpdGlvbjogYmFja2dyb3VuZC1jb2xvciAwLjNzIGxpbmVhcjtcclxuICAgIHotaW5kZXg6IDEwO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4uYnV0dG9uID4gcCA+IGEge1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIHBhZGRpbmctdG9wOiA4cHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi5idXR0b246aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLDAsMCwwLjcpO1xyXG59XHJcbiJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/components/intro-card/intro-card.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/pages/landing/components/intro-card/intro-card.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: IntroCardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroCardComponent", function() { return IntroCardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let IntroCardComponent = class IntroCardComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], IntroCardComponent.prototype, "title", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], IntroCardComponent.prototype, "image", void 0);
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])(),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", String)
+], IntroCardComponent.prototype, "link", void 0);
+IntroCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-intro-card',
+        template: __webpack_require__(/*! raw-loader!./intro-card.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/landing/components/intro-card/intro-card.component.html"),
+        styles: [__webpack_require__(/*! ./intro-card.component.css */ "./src/app/pages/landing/components/intro-card/intro-card.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], IntroCardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/landing.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/pages/landing/landing.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".header {\r\n    width: 100%;\r\n    height: 100px;\r\n    padding: 0;\r\n    margin: 0;\r\n    position: relative;\r\n}\r\n\r\n.landing-featured {\r\n    width: 80%;\r\n    position: relative;\r\n    left: 10%;\r\n}\r\n\r\n.title {\r\n    position: relative;\r\n    width: 100%;\r\n    text-align: center;\r\n}\r\n\r\n.head-image {\r\n    width: 100%;\r\n    position: relative;\r\n    z-index: -1;\r\n    overflow: hidden;\r\n}\r\n\r\n.head-image img {\r\n    width: 100%;\r\n}\r\n\r\n.head-title-overlay {\r\n    position: absolute;\r\n    top: 40%;\r\n    left: 20%;\r\n    width: 20%;\r\n    color: white;\r\n}\r\n\r\n.head-title-overlay > h2 {\r\n    font-size: 52px;\r\n}\r\n\r\n.head-title-overlay > p {\r\n    font-size: 18px;\r\n}\r\n\r\n.four-box-title {\r\n    width: 100%;\r\n    text-align: center;\r\n    color: black;\r\n    position: relative;\r\n    border-top: 1px solid black;\r\n}\r\n\r\n.four-box-title > h1 {\r\n    font-size: 60px;\r\n}\r\n\r\n/* On screens that are 992px or less, set the background color to blue */\r\n\r\n@media screen and (max-width: 992px) {\r\n    .landing-featured {\r\n        left: 0;\r\n        width: 150%;\r\n    }\r\n    \r\n}\r\n\r\n/* On screens that are 600px or less, set the background color to olive */\r\n\r\n@media screen and (max-width: 600px) {\r\n    .three-box-wrapper {\r\n        width: 100%;\r\n    }\r\n\r\n    .intro-card {\r\n        width: 100%;\r\n        margin: 1% 0 1% 0;\r\n    }\r\n\r\n    .head-title-overlay {\r\n      position: absolute;\r\n      top: 20%;\r\n      left: 0;\r\n      width: 100%;\r\n      color: white;\r\n      text-align: center;\r\n    }\r\n\r\n    .head-title-overlay>h2 {\r\n      font-size: 40px;\r\n    }\r\n\r\n    .head-title-overlay>p {\r\n      font-size: 18px;\r\n    }\r\n\r\n    .title > h1{\r\n        font-size: 18px;\r\n    }\r\n\r\n    .head-image > img{\r\n            width: 150%;\r\n            left: -20%;\r\n            position: relative;\r\n    }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvbGFuZGluZy9sYW5kaW5nLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsYUFBYTtJQUNiLFVBQVU7SUFDVixTQUFTO0lBQ1Qsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksVUFBVTtJQUNWLGtCQUFrQjtJQUNsQixTQUFTO0FBQ2I7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixRQUFRO0lBQ1IsU0FBUztJQUNULFVBQVU7SUFDVixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLFlBQVk7SUFDWixrQkFBa0I7SUFDbEIsMkJBQTJCO0FBQy9COztBQUVBO0lBQ0ksZUFBZTtBQUNuQjs7QUFFQSx3RUFBd0U7O0FBQ3hFO0lBQ0k7UUFDSSxPQUFPO1FBQ1AsV0FBVztJQUNmOztBQUVKOztBQUVBLHlFQUF5RTs7QUFDekU7SUFDSTtRQUNJLFdBQVc7SUFDZjs7SUFFQTtRQUNJLFdBQVc7UUFDWCxpQkFBaUI7SUFDckI7O0lBRUE7TUFDRSxrQkFBa0I7TUFDbEIsUUFBUTtNQUNSLE9BQU87TUFDUCxXQUFXO01BQ1gsWUFBWTtNQUNaLGtCQUFrQjtJQUNwQjs7SUFFQTtNQUNFLGVBQWU7SUFDakI7O0lBRUE7TUFDRSxlQUFlO0lBQ2pCOztJQUVBO1FBQ0ksZUFBZTtJQUNuQjs7SUFFQTtZQUNRLFdBQVc7WUFDWCxVQUFVO1lBQ1Ysa0JBQWtCO0lBQzFCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9sYW5kaW5nL2xhbmRpbmcuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5oZWFkZXIge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBoZWlnaHQ6IDEwMHB4O1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmxhbmRpbmctZmVhdHVyZWQge1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGxlZnQ6IDEwJTtcclxufVxyXG5cclxuLnRpdGxlIHtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uaGVhZC1pbWFnZSB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIHotaW5kZXg6IC0xO1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxufVxyXG5cclxuLmhlYWQtaW1hZ2UgaW1nIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uaGVhZC10aXRsZS1vdmVybGF5IHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogNDAlO1xyXG4gICAgbGVmdDogMjAlO1xyXG4gICAgd2lkdGg6IDIwJTtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuLmhlYWQtdGl0bGUtb3ZlcmxheSA+IGgyIHtcclxuICAgIGZvbnQtc2l6ZTogNTJweDtcclxufVxyXG5cclxuLmhlYWQtdGl0bGUtb3ZlcmxheSA+IHAge1xyXG4gICAgZm9udC1zaXplOiAxOHB4O1xyXG59XHJcblxyXG4uZm91ci1ib3gtdGl0bGUge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBib3JkZXItdG9wOiAxcHggc29saWQgYmxhY2s7XHJcbn1cclxuXHJcbi5mb3VyLWJveC10aXRsZSA+IGgxIHtcclxuICAgIGZvbnQtc2l6ZTogNjBweDtcclxufVxyXG5cclxuLyogT24gc2NyZWVucyB0aGF0IGFyZSA5OTJweCBvciBsZXNzLCBzZXQgdGhlIGJhY2tncm91bmQgY29sb3IgdG8gYmx1ZSAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5OTJweCkge1xyXG4gICAgLmxhbmRpbmctZmVhdHVyZWQge1xyXG4gICAgICAgIGxlZnQ6IDA7XHJcbiAgICAgICAgd2lkdGg6IDE1MCU7XHJcbiAgICB9XHJcbiAgICBcclxufVxyXG5cclxuLyogT24gc2NyZWVucyB0aGF0IGFyZSA2MDBweCBvciBsZXNzLCBzZXQgdGhlIGJhY2tncm91bmQgY29sb3IgdG8gb2xpdmUgKi9cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjAwcHgpIHtcclxuICAgIC50aHJlZS1ib3gtd3JhcHBlciB7XHJcbiAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICB9XHJcblxyXG4gICAgLmludHJvLWNhcmQge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIG1hcmdpbjogMSUgMCAxJSAwO1xyXG4gICAgfVxyXG5cclxuICAgIC5oZWFkLXRpdGxlLW92ZXJsYXkge1xyXG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICAgIHRvcDogMjAlO1xyXG4gICAgICBsZWZ0OiAwO1xyXG4gICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcblxyXG4gICAgLmhlYWQtdGl0bGUtb3ZlcmxheT5oMiB7XHJcbiAgICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIH1cclxuXHJcbiAgICAuaGVhZC10aXRsZS1vdmVybGF5PnAge1xyXG4gICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICB9XHJcblxyXG4gICAgLnRpdGxlID4gaDF7XHJcbiAgICAgICAgZm9udC1zaXplOiAxOHB4O1xyXG4gICAgfVxyXG5cclxuICAgIC5oZWFkLWltYWdlID4gaW1ne1xyXG4gICAgICAgICAgICB3aWR0aDogMTUwJTtcclxuICAgICAgICAgICAgbGVmdDogLTIwJTtcclxuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgfVxyXG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/landing/landing.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/pages/landing/landing.component.ts ***!
+  \****************************************************/
+/*! exports provided: LandingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LandingComponent", function() { return LandingComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let LandingComponent = class LandingComponent {
+    constructor() {
+        this.title = 'Rescue Oahu';
+        this.subtitle = 'All of the animals available for adoption on Oahu in one place.  Save a life today.';
+        this.sixtyFortyTitle = 'Pet of the Day';
+        this.coverImageUrl = 'assets/images/cover.png';
+    }
+    ngOnInit() {
+    }
+};
+LandingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-landing',
+        template: __webpack_require__(/*! raw-loader!./landing.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/landing/landing.component.html"),
+        styles: [__webpack_require__(/*! ./landing.component.css */ "./src/app/pages/landing/landing.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], LandingComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.css":
+/*!********************************************************************************!*\
+  !*** ./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.css ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3Jlc2N1ZXMvY29tb29uZW50cy9yZXNjdWUtY2FyZC9yZXNjdWUtY2FyZC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.ts":
+/*!*******************************************************************************!*\
+  !*** ./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.ts ***!
+  \*******************************************************************************/
+/*! exports provided: RescueCardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RescueCardComponent", function() { return RescueCardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let RescueCardComponent = class RescueCardComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+RescueCardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-rescue-card',
+        template: __webpack_require__(/*! raw-loader!./rescue-card.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.html"),
+        styles: [__webpack_require__(/*! ./rescue-card.component.css */ "./src/app/pages/rescues/comoonents/rescue-card/rescue-card.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], RescueCardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/rescues/rescues.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/pages/rescues/rescues.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".head-title-overlay {\r\n    width: 40%;\r\n    background-color: rgba(0,0,0,0.2);\r\n    padding: 20px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvcmVzY3Vlcy9yZXNjdWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxVQUFVO0lBQ1YsaUNBQWlDO0lBQ2pDLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9yZXNjdWVzL3Jlc2N1ZXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5oZWFkLXRpdGxlLW92ZXJsYXkge1xyXG4gICAgd2lkdGg6IDQwJTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwwLDAsMC4yKTtcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbn0iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/pages/rescues/rescues.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/pages/rescues/rescues.component.ts ***!
+  \****************************************************/
+/*! exports provided: RescuesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RescuesComponent", function() { return RescuesComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/animal-service.service */ "./src/app/services/animal-service.service.ts");
+
+
+
+let RescuesComponent = class RescuesComponent {
+    constructor(animalService) {
+        this.animalService = animalService;
+        this.title = 'Local Rescue Organizations';
+        this.subtitle = 'Explore the many animal rescues on Oahu.';
+        this.coverImageUrl = '../assets/images/rescues.jpg';
+        this.rescues = this.animalService.getRescueData();
+    }
+    ngOnInit() {
+        console.log(this.rescues);
+    }
+};
+RescuesComponent.ctorParameters = () => [
+    { type: _services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"] }
+];
+RescuesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-rescues',
+        template: __webpack_require__(/*! raw-loader!./rescues.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/rescues/rescues.component.html"),
+        styles: [__webpack_require__(/*! ./rescues.component.css */ "./src/app/pages/rescues/rescues.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_animal_service_service__WEBPACK_IMPORTED_MODULE_2__["AnimalServiceService"]])
+], RescuesComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/search/search.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/pages/search/search.component.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/search/search.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/pages/search/search.component.ts ***!
+  \**************************************************/
+/*! exports provided: SearchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchComponent", function() { return SearchComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let SearchComponent = class SearchComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+SearchComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-search',
+        template: __webpack_require__(/*! raw-loader!./search.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/search/search.component.html"),
+        styles: [__webpack_require__(/*! ./search.component.css */ "./src/app/pages/search/search.component.css")]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], SearchComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/animal-service.service.ts":
+/*!****************************************************!*\
+  !*** ./src/app/services/animal-service.service.ts ***!
+  \****************************************************/
+/*! exports provided: AnimalServiceService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnimalServiceService", function() { return AnimalServiceService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _assets_data_animalData_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/data/animalData.js */ "./src/assets/data/animalData.js");
+/* harmony import */ var _assets_data_introData_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/data/introData.js */ "./src/assets/data/introData.js");
+/* harmony import */ var _assets_data_rescues_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/data/rescues.js */ "./src/assets/data/rescues.js");
+/* harmony import */ var _assets_data_navData_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/data/navData.js */ "./src/assets/data/navData.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
+
+
+
+
+
+
+let AnimalServiceService = class AnimalServiceService {
+    constructor() {
+        this.mobileNavSubject = new rxjs__WEBPACK_IMPORTED_MODULE_6__["Subject"](); // Determines which content is displayed
+        this.animals = _assets_data_animalData_js__WEBPACK_IMPORTED_MODULE_2__["animals"];
+        this.mobileBreakpoint = 600;
+        this.innerWidth = window.innerWidth;
+        this.mobileNavOpen = false;
+    }
+    getAnimal(id) {
+        return this.animals[id];
+    }
+    getData(id) {
+        if (id === 'intro') {
+            return _assets_data_introData_js__WEBPACK_IMPORTED_MODULE_3__["introData"];
+        }
+    }
+    getNavData() {
+        return _assets_data_navData_js__WEBPACK_IMPORTED_MODULE_5__["navData"];
+    }
+    toggleMobileNav() {
+        if (this.innerWidth <= this.mobileBreakpoint) {
+            this.mobileNavOpen = !this.mobileNavOpen;
+        }
+        this.mobileNavSubject.next(this.mobileNavOpen);
+    }
+    updateInnerWidth(val) {
+        this.innerWidth = val;
+        console.log('test');
+        if (this.innerWidth > this.mobileBreakpoint) {
+            this.mobileNavOpen = true;
+            this.mobileNavSubject.next(this.mobileNavOpen);
+        }
+    }
+    getRescueData() {
+        return _assets_data_rescues_js__WEBPACK_IMPORTED_MODULE_4__["rescues"];
+    }
+};
+AnimalServiceService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], AnimalServiceService);
+
+
+
+/***/ }),
+
+/***/ "./src/assets/data/animalData.js":
+/*!***************************************!*\
+  !*** ./src/assets/data/animalData.js ***!
+  \***************************************/
+/*! exports provided: animals */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "animals", function() { return animals; });
+const animals = [
+    {
+        type: 'Dog',
+        available: true,
+        name: 'Bebe',
+        location: 'Humane Society',
+        color: 'brown',
+        age: 2,
+        size: 'small',
+        weight: 'unknown',
+        description: 'Visit the rescue to meet Bebe.',
+        original_link: 'string',
+        date_added: '10-24-2019',
+        id: 0,
+        image: 'https://g.petango.com/photos/3080/d8d99575-eb2d-4a48-b16b-cffd382b6d4f.jpg'
+    },
+    {
+        type: 'Dog',
+        available: true,
+        name: 'Bonnie',
+        location: 'Humane Society',
+        color: 'brown',
+        age: 5,
+        size: 'small',
+        weight: 'unknown',
+        description: 'Visit the Humane Society to meet Bonnie',
+        original_link: 'string',
+        date_added: '11-06-2019',
+        id: 0,
+        image: 'https://g.petango.com/photos/3080/890e93ba-0429-49c3-892c-0ceef02568e2.jpg'
+    },
+    {
+        type: 'Dog',
+        available: true,
+        name: 'Holla',
+        location: 'Humane Society',
+        color: 'white/tan',
+        age: 9,
+        size: 'small',
+        weight: 'unknown',
+        description: 'cute af',
+        original_link: 'string',
+        date_added: '11-13-2019',
+        id: 0,
+        image: 'https://g.petango.com/photos/3080/51adc6be-a354-4c97-9bb8-3a281f52ba4e.jpg'
+    },
+    {
+        type: 'Dog',
+        available: true,
+        name: 'Janice',
+        location: 'Humane Society',
+        color: 'cream',
+        age: 3,
+        size: 'small',
+        weight: 'unknown',
+        description: 'cute af',
+        original_link: 'string',
+        date_added: '11-06-2019',
+        id: 0,
+        image: 'https://g.petango.com/photos/3080/bb6ec111-b706-441f-956b-a6a270e32534.jpg'
+    },
+    {
+        type: 'Dog',
+        available: true,
+        name: 'Bebe',
+        location: 'Humane Society',
+        color: 'brown',
+        age: 2,
+        size: 'small',
+        weight: 'unknown',
+        description: 'cute af',
+        original_link: 'string',
+        date_added: '10-24-2019',
+        id: 0,
+        image: 'https://g.petango.com/photos/3080/d8d99575-eb2d-4a48-b16b-cffd382b6d4f.jpg'
+    },
+    {
+        type: 'Dog',
+        available: true,
+        name: 'Bonnie',
+        location: 'Humane Society',
+        color: 'brown',
+        age: 5,
+        size: 'small',
+        weight: 'unknown',
+        description: 'cute af',
+        original_link: 'string',
+        date_added: '11-06-2019',
+        id: 0,
+        image: 'https://g.petango.com/photos/3080/890e93ba-0429-49c3-892c-0ceef02568e2.jpg'
+    },
+]
+
+
+/***/ }),
+
+/***/ "./src/assets/data/introData.js":
+/*!**************************************!*\
+  !*** ./src/assets/data/introData.js ***!
+  \**************************************/
+/*! exports provided: introData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "introData", function() { return introData; });
+const introData = [
+    {
+        image: 'assets/images/cat-dog.jpg',
+        title: 'All Animals',
+        link: 'search'
+    },
+    {
+        image: 'assets/images/dalmation-puppy-tall.jpg',
+        title: 'Dogs',
+        link: 'search'
+    },
+    {
+        image: 'assets/images/cat.jpg',
+        title: 'Cats',
+        link: 'search'
+    },
+    {
+        image: 'assets/images/parrot.jpg',
+        title: 'Others',
+        link: 'search'
+    }
+]
+
+/***/ }),
+
+/***/ "./src/assets/data/navData.js":
+/*!************************************!*\
+  !*** ./src/assets/data/navData.js ***!
+  \************************************/
+/*! exports provided: navData */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "navData", function() { return navData; });
+const navData = [
+    { 
+        link: '',
+        text: 'Home'
+    },
+    { 
+        link: 'search',
+        text: 'All Animals'
+    },
+    { 
+        link: 'search',
+        text: 'Dog'
+    },
+    { 
+        link: 'search',
+        text: 'Cats'
+    },
+    {
+        link: 'search',
+        text: 'Exotics'
+    },
+    { 
+        link: 'rescues',
+        text: 'Animal Rescues'
+    },
+    { 
+        link: 'about',
+        text: 'About Us'
+    }
+]
+
+/***/ }),
+
+/***/ "./src/assets/data/rescues.js":
+/*!************************************!*\
+  !*** ./src/assets/data/rescues.js ***!
+  \************************************/
+/*! exports provided: rescues */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "rescues", function() { return rescues; });
+const rescues = [
+    {
+        name: 'Hawaiian Humane Society',
+        address: {
+            street: '2700 Waialae Avenue',
+            city: 'Honolulu',
+            state: 'Hi',
+            zip: 96826,
+        },
+        phone: '(808) 356-2200',
+        email: 'info@hawaiianhumane.org',
+        url: 'https://www.hawaiianhumane.org/',
+        img: '@assets/images/humane.jpg'
+    },
+    {
+        name: 'Oahu Spca',
+        address: {
+            street: '823 Olive Ave',
+            city: 'Wahiawa',
+            state: 'Hi',
+            zip: 96786,
+        },
+        phone: '(808) 356-2200',
+        email: 'info@hawaiianhumane.org',
+        url: 'https://www.oahuspca.org/',
+        img: '@assets/images/humane.jpg'
+    },
+    {
+        name: 'Kaaawa K9 Rescue',
+        address: {
+            street: 'Appointment Only',
+            city: 'Kaaawa',
+            state: 'Hi',
+            zip: 99999,
+        },
+        phone: '(808)-392-4836',
+        email: 'info@kk9r.org',
+        url: 'https://www.kk9r.org/',
+        img: '@assets/images/humane.jpg'
+    },
+    {
+        name: 'Paws of Hawaii',
+        address: {
+            street: 'Appointment Only',
+            city: 'Oahu',
+            state: 'Hi',
+            zip: 99999,
+        },
+        phone: '(808) 757 9220',
+        email: 'info@pawsofhawaii.org',
+        url: 'https://www.pawsofhawaii.org/',
+        img: '@assets/images/humane.jpg'
+    },
+    {
+        name: 'Hawaii Dog Foundation',
+        address: {
+            street: 'Appointment Only',
+            city: 'Oahu',
+            state: 'Hi',
+            zip: 99999,
+        },
+        phone: '(808) 256-6927',
+        email: 'info@HawaiiDogFoundation.org',
+        url: 'https://www.hawaiidogfoundation.org/',
+        img: '@assets/images/humane.jpg'
+    },
+    {
+        name: 'Fur Angel Foundation',
+        address: {
+            street: '590 Farrington Highway #524-224',
+            city: 'Kapolei',
+            state: 'Hi',
+            zip: 96707,
+        },
+        phone: 'no phone',
+        email: 'Info@FurAngelFoundation.org',
+        url: 'http://www.furangelfoundation.org/',
+        img: '@assets/images/humane.jpg'
+    }
+]
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(err => console.error(err));
+
+
+/***/ }),
+
+/***/ 0:
+/*!************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node ./src/main.ts ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\nmfun\OneDrive\Desktop\School\Fall_2019\ICS415\rescue_aggregate\project\node_modules\webpack-dev-server\client\index.js?http://0.0.0.0:0/sockjs-node */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:0/sockjs-node");
+module.exports = __webpack_require__(/*! C:\Users\nmfun\OneDrive\Desktop\School\Fall_2019\ICS415\rescue_aggregate\project\src\main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map

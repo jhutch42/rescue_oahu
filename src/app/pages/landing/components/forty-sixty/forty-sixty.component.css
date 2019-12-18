@@ -1,0 +1,71 @@
+/* One side of the component is 40% */
+.forty {
+    width: 40%;
+    display: inline-block;
+}
+
+.forty img {
+    width: 100%;
+}
+
+/* The other side o fthe component is 60% */
+.sixty {
+    width: calc(40% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    padding-left: 40px;
+    color: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+.animal-card {
+  vertical-align: top;
+}
+
+.button {
+  width: 30%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* On screens that are 992px or less, collapse the cards. */
+@media screen and (max-width: 992px) {
+    .forty {
+      width: 100%;
+      display: block;
+    }
+
+    .sixty {
+      width: 100%;
+      display: block;
+    }
+
+}
+
+/* Collapse the component into cards on the small screens */
+@media only screen and (max-width: 600px) {
+  .forty {
+    width: 100%;
+  }
+  .sixty {
+      width: 100%;
+  }
+  .animal-card {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+  .animal-card > p {
+    margin-top: -5px;
+    position: relative;
+  }
+  .button {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 14%;
+  }
+}

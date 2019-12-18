@@ -1,0 +1,45 @@
+/* wrapper for the two columns */
+.fifty-fifty-wrapper {
+    width: 100%;
+    background-color: #efefef;
+}
+
+/* Split to 2 columns */
+.fifty-fifty-wrapper>div {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1%;
+}
+
+.fifty-fifty-wrapper>div>img {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+
+  /* stack the columns */
+  .fifty-fifty-wrapper>div {
+    width: 96%;
+    padding: 2%;
+  }
+
+  p {
+      font-size: 14px;
+  }
+
+  h1 {
+      font-size: 25px;
+      text-align: center;
+      width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+/* Styles for the entire component */
+:host {
+    background-color: #efefef;
+}
+
+/* Sets the styles for the name on the card */
+.name {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Phone number styles */
+.phone {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Each card has the logo of the rescue */
+img {
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+}
+
+/* Collapse the component into cards on the small screens */
+@media only screen and (max-width: 600px) {
+    img { 
+        width: 70%;
+        position: relative;
+    }
+}

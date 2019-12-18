@@ -1,0 +1,115 @@
+/* Container for the nav bar and logo */
+.header {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+/* Featured pet box. */
+.landing-featured {
+    width: 50%;
+    position: relative;
+    left: 10%;
+}
+
+/* Page title */
+.title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/* Fullscreen Background Image */
+.head-image {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.head-image img {
+    width: 100%;
+}
+
+/* Title text that is placed over the Image */
+.head-title-overlay {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 20%;
+    color: white;
+}
+
+.head-title-overlay > h2 {
+    font-size: 52px;
+}
+
+.head-title-overlay > p {
+    font-size: 18px;
+}
+
+/* Four boxes that hold the links to the search */
+.four-box-title {
+    width: 100%;
+    text-align: center;
+    color: black;
+    position: relative;
+    border-top: 1px solid black;
+}
+
+.four-box-title > h1 {
+    font-size: 60px;
+}
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    /* Adjust the size of the full screen image so it is taller */
+    .landing-featured {
+        left: 0;
+        width: 150%;
+    }
+    
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+    .three-box-wrapper {
+        width: 100%;
+    }
+
+    .intro-card {
+        width: 100%;
+        margin: 1% 0 1% 0;
+    }
+
+    /* Realigh the header text */
+    .head-title-overlay {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+    }
+
+    /* Adjust text sizes */
+    .head-title-overlay>h2 {
+      font-size: 40px;
+    }
+
+    .head-title-overlay>p {
+      font-size: 18px;
+    }
+
+    .title > h1{
+        font-size: 18px;
+    }
+
+    /* Realign the image */
+    .head-image > img{
+            width: 150%;
+            left: -20%;
+            position: relative;
+    }
+}

@@ -1,0 +1,5 @@
+<!-- All data is loaded from the animal service.  Passed as @Input values-->
+<div class="box" *ngFor="let element of data">
+    <app-intro-card title={{element.title}} image={{element.image}} link={{element.link}}></app-intro-card>
+    <div class="overlay"></div>
+</div>

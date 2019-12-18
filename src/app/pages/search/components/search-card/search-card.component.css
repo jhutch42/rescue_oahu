@@ -1,0 +1,16 @@
+/* Each search card shows an animal image that fills its container */
+img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+/* Collapse the component into cards on the small screens */
+@media only screen and (max-width: 600px) {
+    :host {
+        font-size: 14px;
+    }
+}

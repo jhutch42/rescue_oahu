@@ -1,0 +1,37 @@
+
+/* Set Component Style */
+:host {
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Container for the two columns */
+.fifty-fifty-wrapper {
+    width: 100%;
+}
+
+/* Each column is split into two */
+.fifty-fifty-wrapper>div {
+    width: 50%;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Each column has an unordered list with no decoration */
+ul {
+    list-style: none;
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+    .fifty-fifty-wrapper>div {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    ul {
+        text-align: left;
+    }
+}
+

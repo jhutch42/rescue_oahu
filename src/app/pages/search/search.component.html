@@ -1,0 +1,26 @@
+<!-- Header and nav bar -->
+<app-header></app-header>
+<!-- Search Filter dropdowns -->
+<app-filter-bar></app-filter-bar>
+<!-- Container holdin all animal cards -->
+<div class="search-container">
+    <!-- Animal cards are loaded dynamicall from animalService. -->
+    <app-search-card 
+    *ngFor="let animal of animals"
+    class="search-card"
+    name={{animal.name}}
+    age={{animal.age}}
+    size={{animal.size}}
+    sex={{animal.sex}}
+    location={{animal.location}}
+    image={{animal.image}}
+    description={{animal.description}}
+    url={{animal.original_link}}
+    date={{animal.date_added}}
+    color={{animal.color}}
+    species={{animal.species}}
+    >
+    </app-search-card>
+</div>
+<!-- Display page footer -->
+<app-footer></app-footer>
